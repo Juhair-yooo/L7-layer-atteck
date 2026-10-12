@@ -13,6 +13,6 @@ authorized to test**.
 ## Install (Kali / Debian / any Linux, zero dependencies)
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/stresssuite.git
+git clone https://github.com/Juhair-yooo/stresssuite.git
 cd stresssuite
 python3 stresssuite.py --help
