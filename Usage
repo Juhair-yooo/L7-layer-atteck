@@ -1,0 +1,9 @@
+# smoke test against a local disposable server
+python3 -m http.server 8000 &
+python3 stresssuite.py http://127.0.0.1:8000 --mode http --rate 200 --duration 15 --confirm-authorized
+
+# header-timeout validation
+python3 stresssuite.py http://192.168.1.50 --mode slowloris --sockets 400 --confirm-authorized
+
+# SYN-cookie validation (root required)
+sudo python3 stresssuite.py 192.168.1.50 --mode synflood --duration 30 --confirm-authorized
