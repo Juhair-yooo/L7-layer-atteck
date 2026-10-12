@@ -13,6 +13,6 @@ authorized to test**.
 ## Install (Kali / Debian / any Linux, zero dependencies)
 
 ```bash
-git clone https://github.com/Juhair-yooo/stresssuite.git
+git clone https://github.com/Juhair-yooo/L7-layer-atteck.git
 cd stresssuite
 python3 stresssuite.py --help
